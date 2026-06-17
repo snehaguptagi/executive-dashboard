@@ -1,11 +1,12 @@
-# Executive Report Polish
+# Executive Dashboard
 
-A polished, single-page **executive delivery dashboard** for program/PMO reporting — built to turn raw project status into a clean, board-ready view. Think: completion %, daily pace vs. required pace, capacity planning, timeline, risk assessment, and strategic recommendations, all on one scrollable page.
+A polished, single-page **executive delivery dashboard** for program/PMO reporting — built to turn raw project status into a clean, board-ready view, with a **Claude-powered AI Insights panel** that reads the live metrics and writes the executive briefing for you.
 
 > **Note:** This repo ships with **sample data only** (a fictional "Acme Manufacturing Co." master-data program). Swap the values in `src/pages/Index.tsx` and the components under `src/components/` for your own.
 
 ## Features
 
+- **🧠 AI Insights (Claude)** — one click turns the dashboard metrics into an executive summary, the top risks, and recommended actions. Bring your own Anthropic API key (entered in the UI, stored only in your browser — never committed or sent anywhere but Anthropic).
 - **KPI cards** — completion status, current vs. required pace, time remaining, capacity, delivery buffer
 - **Performance analytics** — team performance and completion-progress charts (Recharts)
 - **Performance matrix** + **enhanced delivery timeline**

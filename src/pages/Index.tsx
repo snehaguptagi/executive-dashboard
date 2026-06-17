@@ -7,6 +7,7 @@ import TimelineChart from "@/components/TimelineChart";
 import CapacityMetrics from "@/components/CapacityMetrics";
 import StrategicRecommendations from "@/components/StrategicRecommendations";
 import ExecutiveInsights from "@/components/ExecutiveInsights";
+import AIInsights from "@/components/AIInsights";
 import PerformanceMatrix from "@/components/PerformanceMatrix";
 import RiskAssessment from "@/components/RiskAssessment";
 import { TrendingUp, Shield, Target, CheckCircle, Zap, Trophy, Users, Clock } from "lucide-react";
@@ -194,6 +195,9 @@ const Index = () => {
             ))}
           </div>
         </div>
+
+        {/* AI Insights (Claude-powered) */}
+        <AIInsights metrics={keyMetrics} />
 
         {/* Executive Insights */}
         <ExecutiveInsights />
